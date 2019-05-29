@@ -127,6 +127,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'https://husbandshop-78d38.firebaseapp.com'
 )
 
 CORS_ALLOW_HEADERS = ['*']
