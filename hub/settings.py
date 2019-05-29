@@ -25,7 +25,7 @@ SECRET_KEY = 'vjv!u%^mg*gln5qparx*x9=f3$@9et#nh-8-*ldchhjxr7%b7x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://husbandshop-78d38.firebaseapp.com','husbandshopbackendv2.herokuapp.com', '0.0.0.0', 'http://localhost:3000', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://husbandshop-78d38.firebaseapp.com/','husbandshopbackendv2.herokuapp.com', '0.0.0.0', 'http://localhost:3000', 'localhost', '127.0.0.1']
 
 
 # Application definition
