@@ -1,8 +1,10 @@
 from django.urls import path
-from . import views
+from .views import ListItems, DetailItem, current_user, UserList
 
 urlpatterns = [
-    path('', views.ListItems.as_view()),
-    path('<int:pk>/', views.DetailItem.as_view())
+    path('current_user/', current_user),
+    path('users/', UserList.as_view()),
+    path('', ListItems.as_view()),
+    path('<int:pk>/', DetailItem.as_view())
 ]
 
